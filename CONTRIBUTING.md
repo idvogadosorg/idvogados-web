@@ -13,7 +13,9 @@ _Issues_ ou _pull requests_ que não estejam de acordo com este guia serão recu
 
 - Desenvolva apenas em seu _branch_.
 - Faça _rebase_ com o **dev** **antes** de criar _pull requests_.
-- Faça _rebase_ do **dev** em seu _branch_ diariamente.
+- Mantenha seu fork sempre atualizado
+
+> Como [atualizar um fork](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)?
 
 #### Como começar
 
@@ -22,27 +24,18 @@ _Issues_ ou _pull requests_ que não estejam de acordo com este guia serão recu
 3. Na branch criada, faça suas alterações.
 4. Realize o _commit_ seguindo este guia.
 5. Abra um _pull request_ mencionando a _issue_ relacionada.
-6. Aguarde as aprovações e faça o _merge_ na **dev**
 
 > Como criar um [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)?
 > Como criar um [pull request de um fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)?
 
-#### O que **não** fazer quando contribuindo
-
-- Desenvolver direto no **dev**
-- _Merge_ de _branches_ no **dev** antes que o código seja revisado.
-- _Merge_ de _branches_ no **dev** antes que todas as discussões tenham se encerrado.
-- _Merge_ de _pull requests_ que tenham _reviews_ pendentes (_requested_ ou ainda não finalizadas)
-
 ## Commits
 
 - Faça _commits_ pequenos, que descrevem alterações únicas.
-- Siga as referências sobre como escrever mensagens de _commits_:
+- Sugerimos que siga as recomendações sobre como escrever mensagens de _commits_ descritas neste link:
   - [_Commit Guidelines_](https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines)
   - [_How to Write a Git Commit Message_](https://chris.beams.io/posts/git-commit/)
 - Seja breve e suscinto no título das mensagens do _commit_.
 - Use o corpo da mensagem para explicações adicionais.
-- Se esforce para manter a **dev** o mais limpo possível.
 
 #### O que **não** fazer quando commitando
 
@@ -56,4 +49,4 @@ Use _issues_ para discutir problemas e ideias para o projeto.
 - Descreva qual é o problema em questão.
 - Se possível, dê soluções para o problema.
 - Faça _links_ para código ou para referências a outras _issues_/_pull requests_ se necessário.
-- Todas as contribuições devem ser baseadas em uma _issue_ aberta.
+- Todas as contribuições devem ser baseadas em uma _issue_ aberta e marcadas como pronta para implementar.
