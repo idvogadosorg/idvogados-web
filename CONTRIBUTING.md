@@ -27,7 +27,7 @@ _Issues_ ou _pull requests_ que não estejam de acordo com este guia serão recu
 > Como criar um [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)?
 > Como criar um [pull request de um fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)?
 
-#### O que **não** fazer
+#### O que **não** fazer quando contribuindo
 
 - Desenvolver direto no **dev**
 - _Merge_ de _branches_ no **dev** antes que o código seja revisado.
@@ -44,7 +44,7 @@ _Issues_ ou _pull requests_ que não estejam de acordo com este guia serão recu
 - Use o corpo da mensagem para explicações adicionais.
 - Se esforce para manter a **dev** o mais limpo possível.
 
-#### O que **não** fazer
+#### O que **não** fazer quando commitando
 
 - Burlar a verificação de _linting_ (--no-verify).
 - Criar testes fake apenas para passar na verificação.
