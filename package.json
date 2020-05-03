@@ -8,8 +8,12 @@
     "start": "next start src"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
     "@material-ui/core": "^4.9.12",
+    "apollo-boost": "^0.4.7",
+    "graphql": "^15.0.0",
     "next": "9.3.6",
+    "node-fetch": "^2.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
