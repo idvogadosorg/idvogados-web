@@ -2,7 +2,7 @@
 
 Repositório para o projeto de front-end
 
-# Como contribuir
+## Como contribuir
 
 Saiba [como contribuir](https://github.com/idvogados/backend/blob/dev/CONTRIBUTING.md).
 
