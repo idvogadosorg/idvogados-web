@@ -1,8 +1,8 @@
 ---
-name: Pedido de nova funcionalidade
-about: Sugerir uma ideia para a plataforma
-title: "SUA GRANDE IDEIA!"
-labels: "Tipo: Funcionalidade"
+name: Issue para sprint
+about: essa issue é um ticket para ser trabalhado
+title: ""
+labels: "Tipo: Funcionalidade, Status:Preparação"
 assignees: ''
 
 ---
