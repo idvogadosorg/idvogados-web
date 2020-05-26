@@ -1,6 +1,4 @@
-# 🚧 Trabalho em progresso.
-
-Repositório para o projeto de front-end
+# Idvogados Web
 
 ## Como contribuir
 
