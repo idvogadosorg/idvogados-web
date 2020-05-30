@@ -1,0 +1,56 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "globals": {
+    "__DEV__": true,
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks", "prettier"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "camelcase": "off",
+
+    "jsx-a11y/anchor-is-valid": [0],
+    "implicit-arrow-linebreak": [0],
+    "no-use-before-define": [1],
+    "linebreak-style": [1],
+    "no-unused-vars": [1],
+    "react/jsx-props-no-spreading": [0],
+    "react/prop-types": [0],
+    "import/no-unresolved": [2],
+    "object-curly-newline": [0],
+    "import/prefer-default-export": [0],
+    "import/extensions": [0],
+    "space-before-function-paren": [0],
+
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": ["js", "jsx"]
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}

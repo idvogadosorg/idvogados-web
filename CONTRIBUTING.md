@@ -21,9 +21,28 @@ _Issues_ ou _pull requests_ que não estejam de acordo com este guia serão recu
 
 1. Crie um _fork_ do projeto.
 2. No seu _fork_, crie uma branch a partir da dev. (seguimos o [Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow))
-3. Na branch criada, faça suas alterações.
-4. Realize o _commit_ seguindo este guia.
-5. Abra um _pull request_ mencionando a _issue_ relacionada.
+3. Configurar o ambiente e iniciar o projeto:
+
+> Requisitos:
+>
+> - [Nodejs](https://nodejs.org/en/): 12.16.3-LTS
+> - [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#mac-stable): 1.22.4
+
+```bash
+# Entre no diretório do projeto
+$ cd frontend/
+
+# Instale as dependências
+$ yarn
+
+# Inicie o projeto localmente
+$ yarn dev
+
+```
+
+4. Na branch criada, faça suas alterações.
+5. Realize o _commit_ seguindo este guia.
+6. Abra um _pull request_ mencionando a _issue_ relacionada.
 
 > Como criar um [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)?
 > Como criar um [pull request de um fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)?

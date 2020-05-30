@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "@icons/*": ["./public/icons/*"],
+      "@fonts/*": ["./public/fonts/*"],
+      "@images/*": ["./public/images/*"],
+
+      "@styles/*": ["./src/styles/*"],
+      "@core/*": ["./src/components/core/*"],
+      "@presentational/*": ["./src/components/presentational/*"],
+      "@services/*": ["./src/services/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
