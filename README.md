@@ -2,7 +2,7 @@
 
 ## Como contribuir
 
-Saiba [como contribuir](https://github.com/idvogados/backend/blob/dev/CONTRIBUTING.md).
+Saiba [como contribuir](https://github.com/idvogados/frontend/blob/dev/CONTRIBUTING.md).
 
 ## Termos de uso (Contribuidores)
 
